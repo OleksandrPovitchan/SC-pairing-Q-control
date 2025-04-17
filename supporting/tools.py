@@ -335,7 +335,7 @@ class Operators:
         return spectrum, dim
     
     # The following three functions here are written as an example #
-    # Their import to code is extremely inefficient #
+    # Importing them into code is extremely inefficient #
 
     def linear_evolution(self, t, psi):
         onsite = self.Hamiltonian('onsite')
