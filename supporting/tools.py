@@ -334,8 +334,8 @@ class Operators:
         spectrum = [E_val, Psi_val, Eta_sq_val, S_sq_val, S_c_val, J_val]
         return spectrum, dim
     
-    # the following three functions here are written as an example #
-    # there use in code is extremely unefficient #
+    # The following three functions here are written as an example #
+    # Their import to code is extremely inefficient #
 
     def linear_evolution(self, t, psi):
         onsite = self.Hamiltonian('onsite')
