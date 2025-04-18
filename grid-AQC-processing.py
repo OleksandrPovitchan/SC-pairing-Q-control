@@ -11,8 +11,8 @@ os.environ['OMP_NUM_THREADS'] = '{}'.format(threads)
 os.environ['MKL_NUM_THREADS'] = '{}'.format(threads)
 os.environ['NUMEXPR_NUM_THREADS'] = '{}'.format(threads)
 
-input_path = './exp_8/L{}-AQC-{}-{}-({})_{}-{}-({})'.format(L, omega_min_numb, omega_max_numb, omega_step_numb, A0_min, A0_max, A0_step)
-output_path = './exp_8/processing'
+input_path = './grid-AQC/L{}-AQC-{}-{}-({})_{}-{}-({})'.format(L, omega_min_numb, omega_max_numb, omega_step_numb, A0_min, A0_max, A0_step)
+output_path = './grid-AQC/processing'
 
 os.makedirs(output_path, exist_ok=True)
 
