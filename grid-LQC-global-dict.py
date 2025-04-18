@@ -26,7 +26,7 @@ mode = 'final'
 i = 0
 for h_tag in h_ranges:
     for v_tag in v_ranges:
-        file = np.loadtxt(f'./all/L8-LQC-eta_sq_{mode}-{h_tag}-(0.1)_{v_tag}-(0.1).txt')
+        file = np.loadtxt(f'./grid-LQC/processing/L8-LQC-eta_sq_{mode}-{h_tag}-(0.1)_{v_tag}-(0.1).txt')
         if i%2 == 0: 
             v_array = file
         else: 
