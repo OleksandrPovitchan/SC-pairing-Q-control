@@ -1,9 +1,7 @@
 # SC-pairing-Q-control
 ***(numerical analysis for arXiv:2503.20426)***
 
-The list of packages in the conda environment used when executing Python scripts \[Name Version Build **Channel if available**\]
-
-(More information about QuSpin package may be found here: https://quspin.github.io/QuSpin/index.html)
+The list of packages in the conda environment used when executing Python scripts \[Name Version Build **Channel if available**\] (More information about QuSpin package may be found here: https://quspin.github.io/QuSpin/index.html)
   
 aiofiles                  22.1.0           py38haa95532_0
 
