@@ -1,7 +1,7 @@
 # SC-pairing-Q-control
 ***(numerical analysis for arXiv:2503.20426)***
 
-## Brief description of the provided Python files
+**Brief description of the provided Python files**
 
 One can find the list of packages in the conda environment used when executing Python scripts just below \[Name Version Build **Channel if available**\]. More information about the QuSpin package may be found here: https://quspin.github.io/QuSpin/index.html.
   
