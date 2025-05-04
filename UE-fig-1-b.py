@@ -1,6 +1,6 @@
 # gives envelopes of pulses and evolution of the order parameter (UE)
 
-L = 8
+from parameters import L, s_up, s_dn
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,9 +40,6 @@ y1 = read_dictionary_1['Eta_sq_evolution']/L
 y2 = read_dictionary_2['Eta_sq_evolution']/L
 y3 = read_dictionary_3['Eta_sq_evolution']/L
 
-L = 8
-s_up = L // 2 + L % 2
-s_dn = L // 2
 from supporting import tools
 from parameters import a, pbc, t_h, U, N_p, t_l, asymt_goal
 op = tools.Operators(L, s_up, s_dn, a, pbc, t_h, U, 
