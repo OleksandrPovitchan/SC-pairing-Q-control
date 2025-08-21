@@ -9,8 +9,10 @@ All the .py files starting with 'grid' produce data for plotting *FIG. 2.* from 
 
 *UE-eta_sq.py* produces data for *UE-fig-1-b.py* (the latter creates *FIG. 1. b.*). *UE-eta_sq.py* + *UE-spectral-weights.py* together produce data for *UE-fig-1-a.py* (the latter creates *FIG. 1. a.*).
 
-*FIG_3-UE-LC.py* + *FIG_3-UE-AC.py* together produce data for *FIG_3-a.py* (the latter creates *FIG. 3. a.*). *FIG_3-UE-LC.py* + *FIG_3-spectral-weights.py* together produce data for *FIG_3-b.py* (the latter creates *FIG. 3. b.*).
+*FIG_3-UE-LC.py* + *FIG_3-UE-AC.py* together produce data for *FIG_3-a.py* (the latter creates *FIG. 3. a.*). *FIG_3-UE-LC.py* + *FIG_3-spectral-weights.py* together produce data for *FIG_3-c.py* (the latter creates *FIG. 3. b.*).
 
 *FIG_3-UE-LC.py* + *FIG_4-LC-saturation.py* together produce data for *FIG_4-a.py* (the latter creates *FIG. 4. a.*). By adding to the previous two files *FIG_4-19.1-0.2-asympt-sat.py* and *FIG_4-17.0-0.4-asympt-sat.py*, we prepare data for *FIG_4-b.py* (the latter creates *FIG. 4. b.*).
 
 To obtain *FIG. 5.*, one needs to execute *FIG_5-simulation.py* -> *FIG_5-plot.py*.
+
+*FIG_3-b.py* and *FIG_6.py* use data produced by *r_smooth_pulse.py*
