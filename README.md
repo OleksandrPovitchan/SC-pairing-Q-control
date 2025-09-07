@@ -16,3 +16,5 @@ All the .py files starting with 'grid' produce data for plotting *FIG. 2.* from 
 To obtain *FIG. 5.*, one needs to execute *FIG_5-simulation.py* -> *FIG_5-plot.py*.
 
 *FIG_3-b.py* and *FIG_6.py* use data produced by *r_smooth_pulse.py*
+
+To obtain *FIG. 7.*, one needs to execute the following sequence of scripts: *r_smooth_pulse-to-custom.py* -> ** -> *r_evolve_from_pulse.py* -> **.
